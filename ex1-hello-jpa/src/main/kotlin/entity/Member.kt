@@ -14,4 +14,7 @@ class Member(
   
   @Column(name = "name", nullable = false)
   var name: String = name
+  
+  
+  override fun toString() = "Member(id=$id, name='$name')"
 }
