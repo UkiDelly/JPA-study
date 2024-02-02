@@ -26,12 +26,11 @@ fun main() {
     println("result = ${findMember == findMember2}")
     
     
-    
-    
-    tx.commit()
   } catch (e: Exception) {
     tx.rollback()
   } finally {
+    
+    tx.commit()
     em.close()
     emf.close()
   }
