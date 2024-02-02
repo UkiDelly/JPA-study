@@ -9,16 +9,31 @@ fun main() {
   try {
     tx.begin()
     
-    // Id로 조회
-    val member = em.find(Member::class.java, 1L)
+    //? 생성
+    // val Member = Member("Hello")
     
-    println("member.id = ${member.id}")
-    println("member.name = ${member.name}")
+    //? JPA가 관리하는 영속성 컨텍스트에 저장
+    // em.persist(member)
     
-    // 수정하면 업데이트 쿼리가 생성
-    member.name = "HelloJPA"
+    //? Id로 조회
+    // val member = em.find(Member::class.java, 1L)
     
-    // 커밋 시점에 업데이트 쿼리가 실행
+    // println("member.id = ${member.id}")
+    // println("member.name = ${member.name}")
+    
+    //? 수정하면 업데이트 쿼리가 생성
+    // member.name = "HelloJPA"
+    
+    //? JPQL 사용
+    val result = em.createQuery("select m from Member m ", Member::class.java)
+      .setFirstResult(0)
+      .setMaxResults(10)
+      .resultList
+    for (m in result) {
+      println("member.name = ${m.name}")
+    }
+    
+    //? 커밋 시점에 모든 쿼리가 실행
     tx.commit()
   } catch (e: Exception) {
     tx.rollback()
