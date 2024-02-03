@@ -1,4 +1,5 @@
-import entity.Member
+package entity
+
 import jakarta.persistence.Persistence
 
 fun main() {
@@ -11,11 +12,13 @@ fun main() {
     
     val member1 = Member("A", 10)
     val member2 = Member("B", 10)
+    val member3 = Member("C", 10)
     
-    
+    println("===== Before =====")
     em.persist(member1)
     em.persist(member2)
-    println("====================")
+    em.persist(member3)
+    println("===== After =====")
     
     tx.commit()
   } catch (e: Exception) {
