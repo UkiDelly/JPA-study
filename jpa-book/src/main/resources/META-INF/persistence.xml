@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             version="2.2"
+             xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+             http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+    <persistence-unit name="hello">
+
+        <!--        <class>delly.domain.practice.Member</class>-->
+        <!--        <class>delly.domain.practice.Item</class>-->
+        <!--        <class>delly.domain.practice.Order</class>-->
+        <!--        <class>delly.domain.practice.OrderItem</class>-->
+        <!--        <class>delly.domain.practice.Delivery</class>-->
+        <!--        <class>delly.domain.practice.Category</class>-->
+        <!--        <class>delly.domain.practice.Album</class>-->
+        <!--        <class>delly.domain.practice.Movie</class>-->
+        <!--        <class>delly.domain.practice.Book</class>-->
+        <!--        <class>delly.domain.cascade.Parent</class>-->
+        <!--        <class>delly.domain.cascade.Child</class>-->
+
+        <class>delly.domain.embedded.Member</class>
+        <class>delly.domain.embedded.Address</class>
+        <class>delly.domain.embedded.Period</class>
+
+
+        <properties>
+            <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://mysql-container.orb.local:3306/jpa"/>
+            <property name="jakarta.persistence.jdbc.user" value="root"/>
+            <property name="jakarta.persistence.jdbc.password" value="1234"/>
+
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
+            <property name="hibernate.hbm2ddl.auto" value="create"/>
+        </properties>
+    </persistence-unit>
+</persistence>
