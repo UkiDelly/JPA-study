@@ -4,45 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e711ee48-6040-4d37-acb7-1aa7d07a8d6e" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/delly/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/delly/ValueMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/delly/domain/cascade/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/delly/domain/cascade/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/delly/domain/embedded/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/delly/domain/embedded/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/delly/domain/embedded/Period.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/delly/domain/practice/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/delly/domain/practice/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/delly/domain/practice/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/delly/domain/practice/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/delly/domain/practice/Delivery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/delly/domain/practice/DeliveryStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/delly/domain/practice/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/delly/domain/practice/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/delly/domain/practice/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/delly/domain/practice/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/delly/domain/practice/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/delly/domain/practice/OrderStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e711ee48-6040-4d37-acb7-1aa7d07a8d6e" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,14 +76,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "Cherry-picking in main",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.kotlinCompiler",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
     "vue.rearranger.settings.migration": "true",
     "애플리케이션.Main.executor": "Run"
   },
